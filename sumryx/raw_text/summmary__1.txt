@@ -1,0 +1,10 @@
+SUMMARY BY : TEXT COMPACTOR - A FREE ONLINE AUTOMATIC TEXT SUMMARIZATION TOOL.  
+website :  www.textcompactor.com
+----------------------------------------------------------------------------------
+Text summarization is a branch of Natural Language Processing (NLP) which can be described as the process of creating a compressed representation of a text document which conveys the main ideas of the document (Tohalino & Amancio, 2017). The abstractive approach on the other hand applies sophisticated technique to generate a summary for the document which may contains words that are not found in the document, (Prateek, 2018).
+Although there have been a rise in interest regarding abstractive summarization, however, extractive techniques still remains popular because they are generally less complex, less expensive and is known to generate summarizes that are grammatically and semantically correct most of the time, (Ramesh et al., 2016). The approach aims to be able to suppress redundancy in the produced summaries for lengthy document but still remain flexible enough to generate summaries for shorter document.
+Extractive text summarization selects a set of sentences from a document that conveys the main ideas expressed in that document and uses it as its summary. This project seeks to develop a text summarization model that would be able to condense documents to a shorter and more readable form by extracting sentences representing the key ideas that are expressed in the documents in order to significantly reduce the amount of time spent generating summaries (manually) and also searching for information . Although the model used for summarization performs single document summarization, the entire system can generate summaries for multiple documents one at a time. This is different from multi-document summarization approaches whereby a single summary is generated from multiple documents centred around a single topic.
+Since the proposed model is based on extractive text summarization techniques, it will not be capable of generating novels words when producing summaries.
+
+
+

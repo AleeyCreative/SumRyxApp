@@ -1,0 +1,8 @@
+Extractive text summarization can be seen as an optimization problem (Rasmita & Rakesh, 2019), where the goal is to find an optimal set of sentences that best conveys the overall meaning of the document.
+For a given document containing of a set of sentences S, the aim of extractive text summarization is to select top k sentences that covers the main idea expressed in that document (Nikolov, Pfieffer & Hahnloser, 2018).
+The approach aims to be able to suppress redundancy in the produced summaries for lengthy document but still remain flexible enough to generate summaries for shorter document.
+Extractive text summarization selects  a set of sentences from a document that conveys the main ideas expressed in that document and uses it as its summary.
+The aim of the study to is build and evaluate a text summarization model utilizing both supervised and unsupervised techniques.
+This project seeks to develop a text summarization model that would be able to condense documents to a shorter and more readable form by extracting sentences representing the key ideas that are expressed in the documents in order to significantly reduce the amount of time spent generating summaries (manually) and also searching for information .
+This project proposes to develop an automatic text summarization tool using the single-document  extractive summarization technique.
+Since the proposed model is based on extractive text summarization techniques, it will not be capable of generating novels words when producing summaries.

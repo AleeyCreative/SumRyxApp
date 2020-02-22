@@ -1,0 +1,24 @@
+Manually creating summaries can be a time consuming activity. When the volume of documents to be 
+summarized becomes much, it becomes cumbersome to summarize these manually. This seem more to 
+be the case as the amount of textual information keeps increasing. Some of the sophisticated techniques
+proposed for automatic summarization usually involves the use of neural networks and large amounts 
+of training data in order to produce tangible results. Training these neural networks usually requires 
+high computational resources, which makes the implementation of these approaches, cost prohibitive.
+The proposed system consist of uses text clustering as a precursor to text summarization in order to 
+create extractive summaries.
+The second approach is text clustering which is implemented using the Balanced Iterative and 
+Reducing Clustering Using Hierarchies (BIRCH) algorithm. This algorithm is especially useful in 
+creating hierarchical clusters for large datasets, (Chaudhari & Gautam, 2016).  It works by initally 
+considering each sentence vector representation as a cluster and then successively merges these 
+individual clusters together to form clusters with elements that have high intra­similarity among 
+themselves, (Jensi & Jiji, 2013).
+The proposed system is intended to provide effective solution to the problems of redundancy which is 
+faced in extractive text summarization. It also aims at producing summaries that covers the main ideas 
+expressed in a passage. Since documents are usually structured in such a way that different ideas are 
+expressed at different sections (Rananavare & Reddy, 2017), the proposed system utilizes text 
+clustering as a technique to handle this information spread as well reducing redundancy in the produced
+summaries by clustering sentences that most alike together and then picking a representative sentence 
+from each cluster. The system is also intended to provide an  interface that may be easily integrated 
+with third­party applications that may need a text condensation or summarization system, apart from 
+providing its own interface that users can utilize to summarize documents. The system is intended to be
+flexible enough  to accept document of different formats as input for summarization.

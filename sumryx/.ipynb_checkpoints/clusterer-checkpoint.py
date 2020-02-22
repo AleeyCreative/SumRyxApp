@@ -1,0 +1,1 @@
+print("The summarizer instance is being used")
